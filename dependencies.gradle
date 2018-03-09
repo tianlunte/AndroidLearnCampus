@@ -1,0 +1,9 @@
+ext {
+    kotlinVersion = '1.2.30'
+    gsonVersion = '2.8.2'
+
+    libs = [
+            kotlin                    : "org.jetbrains.kotlin:kotlin-stdlib-jre7:${kotlinVersion}",
+            gson                      : "com.google.code.gson:gson:${gsonVersion}"
+    ]
+}
